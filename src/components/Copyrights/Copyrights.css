@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+    .copyrights{
+        display: grid !important;
+        justify-content: center !important;
+    }
+    .copyrights-text{
+        padding: 0 !important;
+    }
+    .copyrights-date{
+       padding-right: 50px !important;
+    }
+}
+.copyrights-text{
+    flex: 50%;
+    text-align:start;
+    padding-left: 150px;
+    color: rgb(168, 165, 165);
+}
+.copyrights-date{
+    text-align: end;
+    padding-right: 150px;
+    color: rgb(168, 165, 165);
+}
+.copyrights{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #eb8628 solid 1px;
+    border-bottom: #eb8628 15px solid;
+    padding-top: 15px;
+    background-color: white;
+  }
